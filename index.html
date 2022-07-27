@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dist/css/final.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script>
       if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.classList.add('dark')
@@ -75,14 +76,14 @@
     <section id="home" class="pt-36 dark:bg-dark">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
+          <div class="w-full self-center px-4 lg:w-1/2" data-aos="zoom-in-right" data-aos-duration="900">
             <h1 class="text-base font-semibold text-primary md:text-xl">Hallo Guys 🖐, saya <span class="block font-bold text-dark mt-1 text-4xl lg:text-5xl dark:text-white">Zulvan Alief </span></h1>
             <h2 class="font-medium text-second text-lg mb-5 lg:text-2xl">Mahasiswa & <span class="text-dark dark:text-white"> Orang Gabut</span></h2>
-            <p class="font-medium text-second mb-10 leading-relaxed">Web portofolio gabut hasil nyontek dari video <span class="text-dark font-semibold dark:text-white">Pak Dhika</span> 😅😁</p>
+            <p class="font-medium text-second mb-10 leading-relaxed tulis"></p>
 
             <a href="#" class="bg-primary text-base rounded-full font-semibold text-white py-3 px-8 hover:brightness-75 hover:shadow-lg transition duration-300 ease-in-out">Hubungi saya</a>
           </div>
-          <div class="w-full self-end px-4 lg:w-1/2">
+          <div class="w-full self-end px-4 lg:w-1/2 gambarku">
             <div class="mt-20 relative lg:mt-0 lg:right-0">
               <img src="img/2.png" alt="Alief" class="max-w-full mx-auto block relative z-10" />
               <span class="absolute bottom-0 left-1/2 -translate-x-1/2  sm:scale-150 sm:bottom-10">
@@ -105,7 +106,7 @@
     <section id="about" class="pt-12 pb-32 dark:bg-dark">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full px-4 mb-10 lg:w-1/2">
+          <div class="w-full px-4 mb-10 lg:w-1/2" data-aos="fade-right" data-aos-duration="800">
             <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
             <h2 class="font-bold text-3xl text-dark mb-5 max-w-md lg:text-4xl dark:text-white">Yuk Belajar Statistika Matematika</h2>
             <p class="font-medium text-base text-second max-w-xl lg:text-lg">
@@ -113,7 +114,7 @@
               fugit, similique error quo natus hic ducimus! At ratione facere optio a reprehenderit. Doloribus atque quidem ad quasi fuga, impedit explicabo!
             </p>
           </div>
-          <div class="w-full px-4 lg:w-1/2">
+          <div class="w-full px-4 lg:w-1/2" data-aos="fade-left" data-aos-duration="800">
             <h3 class="font-semibold text-2xl text-dark mb-4 lg:text-3xl lg:pt-10 dark:text-white">Mari berteman</h3>
             <p class="font-medium text-base text-second mb-6 lg:text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam iusto libero, doloribus ipsum eum sequi provident asperiores aperiam necessitatibus odit corrupti dignissimos praesentium magni vel quos! Libero, ea est sit
@@ -184,35 +185,35 @@
     <section id="portofolio" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-800">
         <div class="container">
             <div class="w-full px-4">
-              <div class="max-w-xl mx-auto text-center mb-16">
+              <div class="max-w-xl mx-auto text-center mb-16" data-aos="fade-up" data-aos-duration="600">
                 <h4 class="font-semibold text-primary text-lg mb-2 ">Portofolio</h4>
                 <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl md:text-5xl dark:text-white">Project Terbaru</h2>
                 <p class="font-medium text-md text-second md:text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, natus id facilis reiciendis quaerat debitis!</p>
               </div>
             </div>
             <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-              <div class="mb-12 px-4 md:w-1/2">
+              <div class="mb-12 px-4 md:w-1/2" data-aos="flip-left" data-aos-duration="900">
                 <div class="rounded-md overflow-hidden shadow-md">
                   <img src="img/porto/1.png" alt="Gambar 1" width="600" height="300">
                 </div>
                 <h3 class="font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">Gambar Random 1</h3>
                 <p class="font-medium text-base text-second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim quod adipisci.</p>
               </div>
-              <div class="mb-12 px-4 md:w-1/2 ">
+              <div class="mb-12 px-4 md:w-1/2 " data-aos="flip-right" data-aos-duration="900">
                 <div class="rounded-md overflow-hidden shadow-md">
                   <img src="img/porto/2.jpg" alt="Gambar 2" width="600" height="300">
                 </div>
                 <h3 class="font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">Gambar Random 2</h3>
                 <p class="font-medium text-base text-second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim quod adipisci.</p>
               </div>
-              <div class="mb-12 px-4 md:w-1/2 ">
+              <div class="mb-12 px-4 md:w-1/2 " data-aos="flip-left" data-aos-duration="900">
                 <div class="rounded-md overflow-hidden shadow-md">
                   <img src="img/porto/3.jpg" alt="Gambar 3" width="600" height="300">
                 </div>
                 <h3 class="font-semibold text-dark text-xl mt-5 mb-3 dark:text-white">Gambar Random 3</h3>
                 <p class="font-medium text-base text-second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim quod adipisci.</p>
               </div>
-              <div class="mb-12 px-4 md:w-1/2 ">
+              <div class="mb-12 px-4 md:w-1/2 " data-aos="flip-right" data-aos-duration="900">
                 <div class="rounded-md overflow-hidden shadow-md">
                   <img src="img/porto/4.png" alt="Gambar 4" width="600" height="300">
                 </div>
@@ -226,7 +227,7 @@
 
     <!-- Client -->
     <section id="client" class="pt-36 pb-32 bg-slate-800 dark:bg-slate-300">
-      <div class="container">
+      <div class="container" data-aos="zoom-out-up" data-aos-duration="600">
         <div class="w-full px-4">
           <div class=" mx-auto text-center mb-16">
             <h4 class="font-semibold text-primary text-lg mb-2">Clients</h4>
@@ -258,7 +259,7 @@
     <!-- blog start -->
     <section id="blog" class="pt-36 pb-32 bg-slate-100 dark:bg-dark">
       <div class="container">
-        <div class="w-full px-4">
+        <div class="w-full px-4" data-aos="fade-up" data-aos-duration="500">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4 class="font-semibold text-primary text-lg mb-2 ">Blog</h4>
             <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl md:text-5xl dark:text-white">Sambatan Terkini</h2>
@@ -268,7 +269,7 @@
 
         <div class="flex flex-wrap justify-center">
           <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-            <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10 dark:bg-slate-800">
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10 dark:bg-slate-800" data-aos="zoom-in" data-aos-duration="500" >
               <img src="https://source.unsplash.com/360x200?programing" alt="Programing" class="w-full">
               <div class="py-8 px-6">
                 <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white"><h3>Tips Mengetik Lambat</h3></a>
@@ -278,7 +279,7 @@
             </div>
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-            <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10 dark:bg-slate-800">
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10 dark:bg-slate-800" data-aos="zoom-in" data-aos-duration="500">
               <img src="https://source.unsplash.com/360x200?animation" alt="Animation" class="w-full">
               <div class="py-8 px-6">
                 <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white"><h3>Cara Mengapresiasi Animasi</h3></a>
@@ -288,7 +289,7 @@
             </div>
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-            <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10 dark:bg-slate-800">
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10 dark:bg-slate-800" data-aos="zoom-in" data-aos-duration="500">
               <img src="https://source.unsplash.com/360x200?Indonesia" alt="Indonesia" class="w-full">
               <div class="py-8 px-6">
                 <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white"><h3>Pesona Indonesia</h3></a>
@@ -454,5 +455,29 @@
     </a>
     <!-- back to top end -->
     <script src="dist/js/script.js"></script>
+
+    <!-- Aos dan GSAP animate -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const skillsimage = document.querySelectorAll('.skills-img');
+
+      skillsimage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+      AOS.init({
+        once: true,
+        duration: 400,
+      });
+    </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+  <script>
+  gsap.to('.tulis', { duration: 8, delay: 0.5, text: 'Web portofolio gabut hasil nyontek dari video Pak Dhika 😅😁' });
+  gsap.from('.gambarku', { duration: 1.5, delay:1,opacity:0, x:200, ease: "bounce"});
+</script>
+
   </body>
 </html>

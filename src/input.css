@@ -30,17 +30,3 @@ body {
 #darkmode:checked ~ label div.toggle-circle {
   @apply translate-x-3;
 }
-
-@media (min-width: 1080px) {
-  .container {
-    max-width: 1080px;
-    @apply mr-0 pr-0;
-  }
-}
-
-@media (min-width: 720px) {
-  .container {
-    max-width: 720px;
-    @apply mr-0 pr-0;
-  }
-}

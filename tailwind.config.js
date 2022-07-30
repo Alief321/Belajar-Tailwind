@@ -3,9 +3,6 @@ module.exports = {
   content: ['index.html'],
   darkMode: 'class',
   theme: {
-    container: {
-      center: true,
-    },
     extend: {
       colors: {
         primary: '#f87171',

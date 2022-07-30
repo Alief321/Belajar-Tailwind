@@ -5,7 +5,6 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '16px',
     },
     extend: {
       colors: {
@@ -20,3 +19,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+// npx tailwindcss -i ./src/input.css -o ./dist/css/final.css --watch
